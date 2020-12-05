@@ -30,7 +30,7 @@ namespace Practice_Work_1
                     }
                     Console.WriteLine("\n---------------------------------");
                 }
-                else if (caseSwitch != 0 && caseSwitch != -1)
+                else if (caseSwitch != 0)
                 {
                     ConsoleHelper.PrintError();
                 }
@@ -154,7 +154,6 @@ namespace Practice_Work_1
             }
             catch (Exception e)
             {
-                PrintError();
                 result = -1;
             }
 
